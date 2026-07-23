@@ -542,35 +542,6 @@ docs/12_development_guide.md
 8. ArcPy 和 QGIS 专用流程需在对应软件环境中适配；
 9. 全国任务还需增加断点续算、任务调度和质量控制。
 
-## 🗺️ 后续计划
-
-- [ ] 完善 Sentinel-2 网格批量导出；
-- [ ] 增加波段自动识别和数据检查；
-- [ ] 增加 GeoTIFF 数据集适配器；
-- [ ] 完善高分辨率 Dataset 和 DataLoader；
-- [ ] 完善 14 通道中分辨率 Dataset；
-- [ ] 增加完整训练日志和实验配置保存；
-- [ ] 增加 GeoPackage 产品输出；
-- [ ] 增加空间区块数据划分；
-- [ ] 增加亚像素轮廓矢量导出；
-- [ ] 增加混淆矩阵和变化分析可视化；
-- [ ] 增加 GitHub Actions；
-- [ ] 发布具有明确许可的小型示例数据。
-
-## 🤝 如何贡献
-
-欢迎以下形式的贡献：
-
-1. 提交 Bug 报告和功能建议；
-2. 完善中英双语文档；
-3. 增加测试用例；
-4. 改进 GIS 数据适配；
-5. 增加新的岸线提取方法；
-6. 增加新的分类模型；
-7. 分享不同海岸区域的应用案例。
-
-请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
-
 ## 📄 许可证
 
 本项目代码采用 MIT 许可证，详见 [LICENSE](LICENSE)。
@@ -850,28 +821,6 @@ trained weights, GIS desktop projects, or third-party coastline datasets.
 
 Complete model training still requires project-specific Dataset and DataLoader
 adapters based on the actual local data schema.
-
-## 🗺️ Roadmap
-
-- [ ] complete grid-based Sentinel-2 export;
-- [ ] add automatic band validation;
-- [ ] add GeoTIFF dataset adapters;
-- [ ] complete high-resolution and 14-channel DataLoaders;
-- [ ] add full experiment logging;
-- [ ] add GeoPackage product output;
-- [ ] add spatial-block splitting;
-- [ ] add subpixel vector export;
-- [ ] add visualization workflows;
-- [ ] add GitHub Actions;
-- [ ] publish a small licensed example dataset.
-
-## 🤝 Contributing
-
-Contributions are welcome through bug reports, feature requests, documentation,
-tests, GIS adapters, extraction methods, classification models, and regional
-case studies.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## 📄 License
 
