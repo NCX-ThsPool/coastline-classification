@@ -1,0 +1,21 @@
+year: 2025
+grid_size_degrees: 0.1
+date_range:
+  start: "2025-04-01"
+  end: "2025-10-31"
+cloud:
+  maximum_scene_cloud_percent: 80
+  accepted_scl_classes: [4, 5, 6, 7]
+bands: [B2, B3, B4, B8, B11, B12]
+target_resolution: 10
+indices: [mndwi, ndwi, ndvi, evi, rvi, ndbi, ltidel]
+segmentation:
+  method: otsu
+  invert: false
+  nodata_value: -9999
+morphology:
+  minimum_component_pixels: 5
+  require_2x2_structure: true
+subpixel:
+  contour_level: 0.5
+  output_crs: EPSG:4326

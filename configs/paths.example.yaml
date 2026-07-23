@@ -1,0 +1,18 @@
+paths:
+  grids: data/raw/grids
+  sentinel2: data/raw/sentinel2
+  google_imagery: data/raw/google_imagery
+  dem: data/raw/dem
+  reference_products: data/external/reference_products
+  indices: data/interim/indices
+  water_masks: data/interim/water_masks
+  extracted_coastlines: data/interim/extracted_coastlines
+  training_samples: data/processed/training_samples
+  validation_samples: data/processed/validation_samples
+  coastline_products: data/processed/coastline_products
+  outputs: outputs
+
+earth_engine:
+  project: ${EE_PROJECT}
+  max_concurrent_tasks: 6
+  minimum_output_bytes: 1024

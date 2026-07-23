@@ -1,0 +1,20 @@
+experiment:
+  name: hr_convnext_rgb_256
+  seed: 42
+data:
+  root: data/processed/training_samples/hr
+  image_size: 256
+  input_channels: 3
+  classes: 5
+model:
+  name: convnext_tiny
+  pretrained: true
+  attention:
+    enabled: false
+training:
+  epochs: 50
+  batch_size: 16
+  learning_rate: 0.00001
+  weight_decay: 0.0001
+  num_workers: 4
+  output_directory: outputs/runs/hr_convnext_rgb_256
